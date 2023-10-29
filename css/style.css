@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;   
+}
+nav{
+    background-color: #02918b;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+ul , li{
+    list-style-type: none;
+}
+nav .container{
+    width: 1170px;
+    margin: 0 auto;
+}
+nav .container .row{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+nav .container ul li{
+    display: inline-block;
+    padding: 0 25px;
+}
+nav .container ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/* BANNER START */
+#banner{
+    background-image: url('../images/banner.jpg');
+    height: 730px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner .bannercnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    height: 730px;
+    flex-direction: column;
+}
+#banner .bannercnt h3{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 300;
+}
+#banner .bannercnt h1{
+  font-size: 64px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  letter-spacing: 16px;
+  text-transform: uppercase;
+}
+#banner .bannercnt button{
+    padding: 15px 40px;
+    background-color: #cfc91d;
+    outline: none;
+    border: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* BANNER END */
+/* about start */
+#about .header{
+    text-align: center;
+    margin: 100px 0 80px 0;
+}
+#about .header h2{
+    color: #02918b;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+}
+#about .container .row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#about .row .contains{
+   width: 25%;
+   text-align: center;
+}
+/* about ends */
